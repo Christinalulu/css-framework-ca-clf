@@ -2,11 +2,115 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
   <title>Ca Css Framework</title>
 </head>
 <body>
-
-
+<header class='flex h-16 bg-orange-100 justify-center '>
+  <h1 class='p-4 flex text-center text-2xl'> <span class='font-semibold text-2xl '>C</span>hat & <span class='font-semibold text-2xl'>C</span>onnect</h1>
+</header>
+<nav class='min-w-full flex justify-center h-10'>
+  <div class='flex justify-center p-2 list-none mx-8 '>
+    <a href='index.html'> <li class='mx-8 capitalize hover:bg-orange-400 p-2 rounded-lg'>home</li></a>
+    <a href='profile.html'><li class='mx-8 capitalize hover:bg-orange-400 p-2 rounded-lg'>profile</li></a>
+    <a href='login.html'><li class='mx-8 capitalize hover:bg-orange-400 p-2 rounded-lg'>login</li></a>
+  </div>
+  <div class='search hidden lg:block  p-4 flex  '>
+    <input class=' rounded-lg border border-black ' type='text' placeholder='search...' name='search'>
+  </div>
+  <button class=' p-4'><i class="fa-solid fa-magnifying-glass"></i></button>
+</nav>
+<div class='mx-10 mt-8 lg:mx-32 underline decoration-1 '>
+  <h2>Feed post</h2>
+</div>
+<div class='cards__container__all grid lg:grid-cols-3 gap-10 mt-8 m-auto  '>
+<div class='cards__container--card rounded-md bg-orange-100 p-8 lg:max-h-85 '>
+  <div class='cards__container--inner grid gap-2 '>
+    <img src="image/person-boy.jpg" alt='boy' class='rounded-full w-16 h-16 object-cover'>
+    <p class='name'>Tiger1000</p>
+    <p class='name'>published 03.06.2021</p>
+  </div>
+  <div class='m-2 mb-8'>
+    <img src='image/post-img1.jpg' alt='post one' class=' w-full rounded'>
+    <p class='mt-2 md:text-sm '>A falsis, aonides audax mineralis. Lunas prarere in dexter tubinga. Ubi est noster guttus. A falsis, planeta emeritis exsul.</p>
+  </div>
+<div class='flex'>
+  <button class='px-4 bg-orange-400 mr-40 rounded'>Follow</button>
+  <i class="fa-solid fa-comment p-2"></i>
+  <i class="fa-solid fa-bell p-2"></i>
+  <i class="fa-solid fa-heart p-2"></i>
+</div>
+</div>
+  <div class='cards__container--card rounded-md bg-orange-100 p-8 lg:max-h-85 '>
+    <div class='cards__container--inner grid gap-2 '>
+      <img src="image/person-boy.jpg" alt='boy' class='rounded-full w-16 h-16 object-cover'>
+      <p class='name'>Tiger1000</p>
+      <p class='name'>published 03.06.2021</p>
+    </div>
+    <div class='m-2 mb-8'>
+      <img src='image/post-img2.jpg' alt='post two' class=' w-full rounded'>
+      <p class='mt-2 md:text-sm '>A falsis, aonides audax mineralis. Lunas prarere in dexter tubinga. Ubi est noster guttus. A falsis, planeta emeritis exsul.</p>
+    </div>
+    <div class='flex'>
+      <button class='px-4 bg-orange-400 mr-40 rounded'>Follow</button>
+      <i class="fa-solid fa-comment p-2"></i>
+      <i class="fa-solid fa-bell p-2"></i>
+      <i class="fa-solid fa-heart p-2"></i>
+    </div>
+    </div>
+  <div class='cards__container--card rounded-md bg-orange-100 p-8 lg:max-h-85 '>
+    <div class='cards__container--inner grid gap-2 '>
+      <img src="image/person-boy.jpg" alt='boy' class='rounded-full w-16 h-16 object-cover'>
+      <p class='name'>Tiger1000</p>
+      <p class='name'>published 03.06.2021</p>
+    </div>
+    <div class='m-2 mb-8'>
+      <img src='image/short-img.jpg' alt='post two' class=' w-full rounded'>
+      <p class='mt-2 md:text-sm '>A falsis, aonides audax mineralis. Lunas prarere in dexter tubinga. Ubi est noster guttus. A falsis, planeta emeritis exsul.</p>
+    </div>
+    <div class='flex'>
+      <button class='px-4 bg-orange-400 mr-40 rounded'>Follow</button>
+      <i class="fa-solid fa-comment p-2"></i>
+      <i class="fa-solid fa-bell p-2"></i>
+      <i class="fa-solid fa-heart p-2"></i>
+    </div>
+  </div>
+</div>
+<div class=' mx-10 p-2 mt-8 lg:mx-32 underline decoration-1'><h3>New post</h3></div>
+<div class='form__post m-auto p-2 bg-orange-100 rounded flex justify-center flex-col items-center  '>
+  <div class='w-full  h-80 bg-gray-200 justify-center lg:w-1/2 flex justify-center text-center items-center'>
+    <i class="fa-solid fa-image fa-xl"></i>
+  </div>
+  <div class='flex justify-center text-center items-center flex-col'>
+    <p>Name</p>
+    <input class='form__bar' type='text' placeholder='name'>
+    <p>location</p>
+    <input class='form__bar' type='text' placeholder='location'>
+    <p>Tagg</p>
+    <input class='form__bar' type='text' placeholder='tagg'>
+    <p>description</p>
+    <textarea class='form__bar' type='texteria' placeholder='Description'></textarea>
+  </div>
+  <button class=' flex justify-center text-center items-center p-2 px-4 bg-orange-400 rounded m-auto mt-2 lg:mr-100 '>Publish</button>
+</div>
+<footer class='flex flex-col justify-center items-center bg-gray-200 mt-2'>
+  <h4 class='p-4 flex text-center text-2xl'> <span class='font-semibold text-2xl '>C</span>hat & <span class='font-semibold text-2xl'>C</span>onnect</h4>
+  <nav class='list-none grid grid-cols-3 gap-8 divide-black m-2 '>
+    <li>Home</li>
+    <li>Profile</li>
+    <li>Login</li>
+  </nav>
+  <div class='grid grid-cols-4 gap-8 m-8'>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+    <i class="fa-brands fa-github"></i>
+  </div>
+  <p>&copy;Copyright 2021 - 2022 Chat & Connect </p>
+</footer>
 <script type="module" src="/main.js"></script>
 </body>
 </html>

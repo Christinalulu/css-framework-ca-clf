@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.cards__container__all{
+  max-width: 85%;
+}
+.form__post{
+  max-width: 85%;
+}
+.form__bar{
+  @apply p-2 max-w-2xl
+}
+.text__info{
+  max-width: 60%;
+}
