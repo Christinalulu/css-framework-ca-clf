@@ -12,90 +12,244 @@
 <header class='flex h-16 bg-orange-100 justify-center '>
   <h1 class='p-4 flex text-center text-2xl'> <span class='font-semibold text-2xl '>C</span>hat & <span class='font-semibold text-2xl'>C</span>onnect</h1>
 </header>
+<div class="relative"><input class="block w-full appearance-none bg-transparent py-4 pl-4 pr-12 text-base text-slate-900 placeholder:text-slate-600 hover:outline-amber-200   sm:text-sm sm:leading-6"
+                             placeholder="Search here..."
+                             aria-label="Search components"
+                             id="headlessui-combobox-input-22"
+                             role="combobox"
+                             type="text"
+                             aria-expanded="false"
+                             tabindex="0"
+                             style="caret-color: rgb(107, 114, 128);"><svg
+  class="pointer-events-none absolute top-4 right-4 h-6 w-6 fill-slate-400"
+  xmlns="http://www.w3.org/2000/svg"><path
+  d="M20.47 21.53a.75.75 0 1 0 1.06-1.06l-1.06 1.06Zm-9.97-4.28a6.75 6.75 0 0 1-6.75-6.75h-1.5a8.25 8.25 0 0 0 8.25 8.25v-1.5ZM3.75 10.5a6.75 6.75 0 0 1 6.75-6.75v-1.5a8.25 8.25 0 0 0-8.25 8.25h1.5Zm6.75-6.75a6.75 6.75 0 0 1 6.75 6.75h1.5a8.25 8.25 0 0 0-8.25-8.25v1.5Zm11.03 16.72-5.196-5.197-1.061 1.06 5.197 5.197 1.06-1.06Zm-4.28-9.97c0 1.864-.755 3.55-1.977 4.773l1.06 1.06A8.226 8.226 0 0 0 18.75 10.5h-1.5Zm-1.977 4.773A6.727 6.727 0 0 1 10.5 17.25v1.5a8.226 8.226 0 0 0 5.834-2.416l-1.061-1.061Z"></path></svg></div>
+
 <nav class='min-w-full flex justify-center h-10'>
   <div class='flex justify-center p-2 list-none mx-8 '>
     <a href='index.html'> <li class='mx-8 capitalize hover:bg-orange-400 p-2 rounded-lg'>home</li></a>
     <a href='profile.html'><li class='mx-8 capitalize hover:bg-orange-400 p-2 rounded-lg'>profile</li></a>
     <a href='login.html'><li class='mx-8 capitalize hover:bg-orange-400 p-2 rounded-lg'>login</li></a>
   </div>
-  <div class='search hidden lg:block  p-4 flex  '>
-    <input class=' rounded-lg border border-black ' type='text' placeholder='search...' name='search'>
-  </div>
-  <button class=' p-4'><i class="fa-solid fa-magnifying-glass"></i></button>
 </nav>
-<div class='mx-10 mt-8 lg:mx-32 underline decoration-1 '>
-  <h2>Feed post</h2>
-</div>
-<div class='cards__container__all grid lg:grid-cols-3 gap-10 mt-8 m-auto  '>
-<div class='cards__container--card rounded-md bg-orange-100 p-8 lg:max-h-85 '>
-  <div class='cards__container--inner grid gap-2 '>
-    <img src="image/person-boy.jpg" alt='boy' class='rounded-full w-16 h-16 object-cover'>
-    <p class='name'>Tiger1000</p>
-    <p class='name'>published 03.06.2021</p>
+
+<section class='bg-white dark:bg-gray-900'>
+  <div class='container px-6 py-10 mx-auto'>
+    <div class='text-center'>
+
+      <h1 class='text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white'>New latest Post </h1>
+
+      <p class='max-w-lg mx-auto mt-4 text-gray-500'>Salami mustard spice tea fridge authentic Chinese food dish salt tasty liquor. Sweet savory foodtruck
+        pie.
+      </p>
+    </div>
+      <div class='grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3'>
+        <div>
+
+          <div class='relative'>
+            <img class='object-cover object-center w-full h-64 rounded-lg lg:h-80' src='/image/post-img1.jpg' alt=''>
+
+           <div class='absolute bottom-0 flex p-3 bg-white dark:bg-gray-900'>
+             <img class='object-cover object-center w-10 h-10 rounded-full' src='/image/person-boy.jpg' alt=''>
+           <div class='mx-4'>
+            <h1 class='text-sm text-gray-700 dark:text-gray-200'>Tom Hank</h1>
+             <p class='text-sm text-gray-500 dark:text-gray-400'>Data: 01:04:2022</p>
+           </div>
+         </div>
+        </div>
+          <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+            My Time In New York
+          </h1>
+          <hr class="w-32 my-6 text-blue-500">
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+            praesentium, alias nam? Tempore
+          </p>
+          <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+    </div>
+        <div>
+          <div class='relative'>
+            <img class='object-cover object-center w-full h-64 rounded-lg lg:h-80' src='/image/post-img2.jpg' alt=''>
+            <div class='absolute bottom-0 flex p-3 bg-white dark:bg-gray-900'>
+              <img class='object-cover object-center w-10 h-10 rounded-full' src='/image/person-girl.jpg' alt=''>
+              <div class="mx-4">
+                <h1 class="text-sm text-gray-700 dark:text-gray-200">Amelia Anderson</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Data: 04:06:2021</p>
+              </div>
+            </div>
+          </div>
+
+          <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+           A walk with the dog
+          </h1>
+          <hr class="w-32 my-6 text-blue-500">
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+            praesentium, alias nam? Tempore
+          </p>
+          <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+        </div>
+        <div>
+          <div class='relative'>
+            <img class='object-cover object-center w-full h-64 rounded-lg lg:h-80' src='/image/short-img.jpg' alt=''>
+            <div class='absolute bottom-0 flex p-3 bg-white dark:bg-gray-900'>
+              <img class='object-cover object-center w-10 h-10 rounded-full' src='/image/person-boy.jpg' alt=''>
+              <div class="mx-4">
+                <h1 class="text-sm text-gray-700 dark:text-gray-200">Janny Hawk</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Data: 03:04:2021</p>
+              </div>
+            </div>
+          </div>
+
+          <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+           A vacation in Paris
+          </h1>
+          <hr class="w-32 my-6 text-blue-500">
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+            praesentium, alias nam? Tempore
+          </p>
+          <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+        </div>
+        <div>
+          <div class='relative'>
+            <img class='object-cover object-center w-full h-64 rounded-lg lg:h-80' src='/image/post-img5.jpg' alt=''>
+            <div class='absolute bottom-0 flex p-3 bg-white dark:bg-gray-900'>
+              <img class='object-cover object-center w-10 h-10 rounded-full' src='/image/person-girl.jpg' alt=''>
+              <div class="mx-4">
+                <h1 class="text-sm text-gray-700 dark:text-gray-200">Mr Kate</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Data: 02:10:2022</p>
+              </div>
+            </div>
+          </div>
+
+          <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+            A vacation in Paris
+          </h1>
+          <hr class="w-32 my-6 text-blue-500">
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+            praesentium, alias nam? Tempore
+          </p>
+          <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+        </div>
+        <div>
+          <div class='relative'>
+            <img class='object-cover object-center w-full h-64 rounded-lg lg:h-80' src='/image/post-img4.jpg' alt=''>
+            <div class='absolute bottom-0 flex p-3 bg-white dark:bg-gray-900'>
+              <img class='object-cover object-center w-10 h-10 rounded-full' src='/image/person-boy.jpg' alt=''>
+              <div class="mx-4">
+                <h1 class="text-sm text-gray-700 dark:text-gray-200">Taylor Max</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Data: 03:06:2021</p>
+              </div>
+            </div>
+          </div>
+
+          <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+            A vacation in Paris
+          </h1>
+          <hr class="w-32 my-6 text-blue-500">
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+            praesentium, alias nam? Tempore
+          </p>
+          <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+        </div>
+        <div>
+          <div class='relative'>
+            <img class='object-cover object-center w-full h-64 rounded-lg lg:h-80' src='/image/post-img3.jpg' alt=''>
+            <div class='absolute bottom-0 flex p-3 bg-white dark:bg-gray-900'>
+              <img class='object-cover object-center w-10 h-10 rounded-full' src='/image/person-girl.jpg' alt=''>
+              <div class="mx-4">
+                <h1 class="text-sm text-gray-700 dark:text-gray-200">Lola Penny</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Data: 03:04:2021</p>
+              </div>
+            </div>
+          </div>
+
+          <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+            A vacation in Paris
+          </h1>
+          <hr class="w-32 my-6 text-blue-500">
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+            praesentium, alias nam? Tempore
+          </p>
+          <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+        </div>
+    </div>
+    <div>
+    </div>
   </div>
-  <div class='m-2 mb-8'>
-    <img src='image/post-img1.jpg' alt='post one' class=' w-full rounded'>
-    <p class='mt-2 md:text-sm '>A falsis, aonides audax mineralis. Lunas prarere in dexter tubinga. Ubi est noster guttus. A falsis, planeta emeritis exsul.</p>
-  </div>
-<div class='flex'>
-  <button class='px-4 bg-orange-400 mr-40 rounded'>Follow</button>
-  <i class="fa-solid fa-comment p-2"></i>
-  <i class="fa-solid fa-bell p-2"></i>
-  <i class="fa-solid fa-heart p-2"></i>
-</div>
-</div>
-  <div class='cards__container--card rounded-md bg-orange-100 p-8 lg:max-h-85 '>
-    <div class='cards__container--inner grid gap-2 '>
-      <img src="image/person-boy.jpg" alt='boy' class='rounded-full w-16 h-16 object-cover'>
-      <p class='name'>Tiger1000</p>
-      <p class='name'>published 03.06.2021</p>
-    </div>
-    <div class='m-2 mb-8'>
-      <img src='image/post-img2.jpg' alt='post two' class=' w-full rounded'>
-      <p class='mt-2 md:text-sm '>A falsis, aonides audax mineralis. Lunas prarere in dexter tubinga. Ubi est noster guttus. A falsis, planeta emeritis exsul.</p>
-    </div>
-    <div class='flex'>
-      <button class='px-4 bg-orange-400 mr-40 rounded'>Follow</button>
-      <i class="fa-solid fa-comment p-2"></i>
-      <i class="fa-solid fa-bell p-2"></i>
-      <i class="fa-solid fa-heart p-2"></i>
-    </div>
-    </div>
-  <div class='cards__container--card rounded-md bg-orange-100 p-8 lg:max-h-85 '>
-    <div class='cards__container--inner grid gap-2 '>
-      <img src="image/person-boy.jpg" alt='boy' class='rounded-full w-16 h-16 object-cover'>
-      <p class='name'>Tiger1000</p>
-      <p class='name'>published 03.06.2021</p>
-    </div>
-    <div class='m-2 mb-8'>
-      <img src='image/short-img.jpg' alt='post two' class=' w-full rounded'>
-      <p class='mt-2 md:text-sm '>A falsis, aonides audax mineralis. Lunas prarere in dexter tubinga. Ubi est noster guttus. A falsis, planeta emeritis exsul.</p>
-    </div>
-    <div class='flex'>
-      <button class='px-4 bg-orange-400 mr-40 rounded'>Follow</button>
-      <i class="fa-solid fa-comment p-2"></i>
-      <i class="fa-solid fa-bell p-2"></i>
-      <i class="fa-solid fa-heart p-2"></i>
+</section>
+
+
+<div class="flex m-auto w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+  <div class="w-2 bg-orange-500 dark:bg-gray-900"></div>
+
+  <div class="flex items-center px-2 py-3">
+    <img class="object-cover w-10 h-10 rounded-full" alt="User avatar" src="https://images.unsplash.com/photo-1477118476589-bff2c5c4cfbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=200">
+
+    <div class="mx-3">
+      <h2 class='text-gray-600 dark:text-gray-200 font-bold'>Whitney Francis</h2>
+      <p class='text-gray-600 dark:text-gray-200 text-sm '>
+        Deployed Work (5656 in master) to Production
+      </p>
     </div>
   </div>
 </div>
-<div class=' mx-10 p-2 mt-8 lg:mx-32 underline decoration-1'><h3>New post</h3></div>
-<div class='form__post m-auto p-2 bg-orange-100 rounded flex justify-center flex-col items-center  '>
-  <div class='w-full  h-80 bg-gray-200 justify-center lg:w-1/2 flex justify-center text-center items-center'>
-    <i class="fa-solid fa-image fa-xl"></i>
+<br>
+<div class="flex m-auto w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+  <div class="w-2 bg-orange-500 dark:bg-gray-900"></div>
+
+  <div class="flex items-center px-2 py-3">
+    <img class="object-cover w-10 h-10 rounded-full" alt="User avatar" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+
+    <div class="mx-3">
+      <h2 class='text-gray-600 dark:text-gray-200 font-bold'>Floyd Miles</h2>
+      <p class='text-gray-600 dark:text-gray-200 text-sm '>
+        Deployed Work (566747 in master) to Production
+      </p>
+    </div>
   </div>
-  <div class='flex justify-center text-center items-center flex-col'>
-    <p>Name</p>
-    <input class='form__bar' type='text' placeholder='name'>
-    <p>location</p>
-    <input class='form__bar' type='text' placeholder='location'>
-    <p>Tagg</p>
-    <input class='form__bar' type='text' placeholder='tagg'>
-    <p>description</p>
-    <textarea class='form__bar' type='texteria' placeholder='Description'></textarea>
-  </div>
-  <button class=' flex justify-center text-center items-center p-2 px-4 bg-orange-400 rounded m-auto mt-2 lg:mr-100 '>Publish</button>
 </div>
+<br>
+<div class="flex m-auto w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+  <div class="w-2 bg-orange-500 dark:bg-gray-900"></div>
+
+  <div class="flex items-center px-2 py-3">
+    <img class="object-cover w-10 h-10 rounded-full" alt="User avatar" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+
+    <div class="mx-3">
+      <h2 class='text-gray-600 dark:text-gray-200 font-bold'>Lindsay Walton</h2>
+      <p class='text-gray-600 dark:text-gray-200 text-sm '>
+        Deployed Work (23432 in master) to Production
+      </p>
+    </div>
+  </div>
+</div>
+<br>
+<div class="flex m-auto w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+  <div class="w-2 bg-orange-500 dark:bg-gray-900"></div>
+
+  <div class="flex items-center px-2 py-3">
+    <img class="object-cover w-10 h-10 rounded-full" alt="User avatar" src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80">
+
+    <div class="mx-3">
+      <h2 class='text-gray-600 dark:text-gray-200 font-bold'>Lindsay Walton</h2>
+      <p class='text-gray-600 dark:text-gray-200 text-sm '>
+        Deployed Work (78654 in master) to Production
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 <footer class='flex flex-col justify-center items-center bg-gray-200 mt-2'>
   <h4 class='p-4 flex text-center text-2xl'> <span class='font-semibold text-2xl '>C</span>hat & <span class='font-semibold text-2xl'>C</span>onnect</h4>
   <nav class='list-none grid grid-cols-3 gap-8 divide-black m-2 '>
